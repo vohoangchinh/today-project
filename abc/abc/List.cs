@@ -33,6 +33,5 @@ namespace abc
                 point=point.Next;
             }
         }
-        public void 
     }
 }
