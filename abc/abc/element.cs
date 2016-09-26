@@ -20,5 +20,10 @@ namespace abc
             get { return next; }
             set { next = value; }
         }
+        public element(T x)
+        {
+            this.data=x;
+            this.next = null;
+        }
     }
 }

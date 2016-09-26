@@ -17,11 +17,22 @@ namespace abc
         }
         public List()
         {
+            this.head=null;
         }
         public void addfirst(element<T> e)
         {
             e.Next = head;
             this.head = e;
         }
+        public void printList(element<T> e)
+        {
+            element<T>point = head;
+            while(point.Next!=null)
+            {
+                Console.WriteLine(point.Data);
+                point=point.Next;
+            }
+        }
+        public void 
     }
 }

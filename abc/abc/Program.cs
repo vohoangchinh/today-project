@@ -10,6 +10,12 @@ namespace abc
     {
         static void Main(string[] args)
         {
+            element<int> a = new element<int>(3);
+            element<int> b =new element<int>(4);
+            element<int> c =new element<int>(5);
+
+            List<int>=new List<int>();
+
         }
     }
 }
